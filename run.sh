@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-
+echo "#" >> run.sh
 # commit & push
 git add -A; git commit --allow-empty-message -m ''; git push
 
@@ -16,4 +16,4 @@ murray bone new podspec NewFramework
 
 
 
-code .
+code .#
