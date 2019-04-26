@@ -10,7 +10,8 @@
   },
   "foldersToRename" : [
     "EBKUI",
-    "Example/EBKUI"
+    "Example/EBKUI",
+    "Example/EBKUI.xcodeproj"
   ],
   "filePlaceholder" : "EBKUI",
   "scripts" : [
