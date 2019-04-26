@@ -2,7 +2,7 @@
   "filesToRename" : [
   ],
   "remoteBones" : [
-
+    "https://github.com/ignazioc/MurrayBonesDemo"
   ],
   "environmentPlaceholders" : {
 
@@ -15,7 +15,6 @@
   ],
   "filePlaceholder" : "EBKUI",
   "scripts" : [
-    "murray bone setup"
   ],
   "initGit" : false
 }
