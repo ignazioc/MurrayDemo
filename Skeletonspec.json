@@ -13,7 +13,7 @@
     "Example/EBKUI",
     "Example/EBKUI.xcodeproj",
     "Example/EBKUI.xcworkspace"
-
+    "EBKUI.podspec"
   ],
   "filePlaceholder" : "EBKUI",
   "scripts" : [
