@@ -8,4 +8,7 @@ cd ..
 rm -rf "NewFramework"
 murray skeleton new NewFramework https://github.com/ignazioc/MurrayDemo.git --verbose
 
-code NewFramework
+cd NewFramework
+murray bone new podspec NewFramework
+
+code .
