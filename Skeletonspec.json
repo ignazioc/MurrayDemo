@@ -1,6 +1,6 @@
 {
   "filesToRename" : [
-
+    "EBKUI.podspec"
   ],
   "remoteBones" : [
 
@@ -12,8 +12,7 @@
     "EBKUI",
     "Example/EBKUI",
     "Example/EBKUI.xcodeproj",
-    "Example/EBKUI.xcworkspace",
-    "EBKUI.podspec"
+    "Example/EBKUI.xcworkspace"
   ],
   "filePlaceholder" : "EBKUI",
   "scripts" : [
