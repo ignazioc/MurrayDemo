@@ -21,4 +21,5 @@ mv Example/EBKUI Example/${NEWNAME}
 mv Example/EBKUI.xcodeproj Example/${NEWNAME}.xocdeproj
 mv Example/EBKUI.xcworkspace Example/${NEWNAME}.xcworkspace
 mv EBKUI.podspec ${NEWNAME}.podspec
+sed -i -e "s/EBKUI/#{NEWNAME}" README.md
 code .
