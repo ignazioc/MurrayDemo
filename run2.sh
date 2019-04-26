@@ -16,6 +16,9 @@ cd NewFramework
 
 
 # Rename main folder.
-mv EBKAPI $NEWNAME
-
+mv EBKUI $NEWNAME
+mv Example/EBKUI Example/${NEWNAME}
+mv Example/EBKUI.xcodeproj Example/${NEWNAME}.xocdeproj
+mv Example/EBKUI.xcworkspace Example/${NEWNAME}.xcworkspace
+nv EBKUI.podspec ${NEWNAME}.podspec
 code .
