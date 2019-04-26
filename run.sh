@@ -12,4 +12,6 @@ cd NewFramework
 murray bone setup
 murray bone new podspec NewFramework
 
+
+
 code .
