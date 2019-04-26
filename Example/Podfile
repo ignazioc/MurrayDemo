@@ -1,0 +1,17 @@
+use_frameworks!
+inhibit_all_warnings!
+install! 'cocoapods', :disable_input_output_paths => true
+platform :ios, '11.0'
+
+target 'EBKUI_Example' do
+  pod 'EBKUI', :path => '../'
+
+  target 'EBKUI_Tests' do
+    inherit! :search_paths
+
+    pod 'Quick'
+    pod 'Nimble'
+    pod 'FBSnapshotTestCase'
+    pod 'Nimble-Snapshots'
+  end
+end

@@ -1,0 +1,33 @@
+default_platform(:ios)
+
+platform :ios do
+  desc "Executes Swiftlint with autocorrection"
+  lane :lint_swift do
+    Dir.chdir("../../..") do
+      swiftlint(
+        mode: :autocorrect,
+        executable: "Pods/SwiftLint/swiftlint",
+        config_file: ".swiftlint.yml",
+        ignore_exit_status: true,
+        quiet: false
+      )
+    end
+  end
+
+  desc "Verify if code needs to be swiftlint-ed"
+  lane :lint_check do
+    ensure_git_status_clean
+    lint_swift
+    ensure_git_status_clean  rescue raise "The code must be formatted. Run 'bundle exec rake lint:lint'"
+    puts "🍺 Code looks fine!"
+  end
+
+  desc "Execute Unit tests"
+  lane :tests do
+    run_tests(workspace: "EBKUI.xcworkspace",
+              devices: ["iPhone 5s"],
+              scheme: "EBKUI-Example")
+  end
+end
+
+

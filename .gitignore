@@ -1,0 +1,72 @@
+# https://github.com/github/gitignore/blob/master/Objective-C.gitignore
+/build/
+DerivedData
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+*.xcuserstate
+*.xcscmblueprint
+*.hmap
+*.ipa
+*.bcsymbolmap
+*~.storyboard
+
+Carthage/Build
+
+# FURRDataSource example projects and tests are not needed
+Carthage/Checkouts/FURRDataSource/CollectionView-Simple 
+Carthage/Checkouts/FURRDataSource/RushingCells
+Carthage/Checkouts/FURRDataSource/DataSourceTests
+
+# Custom ignores
+test-reports
+instruments-traces/
+*.trace
+Automation Tests/automation-build
+*-gcov.xml
+/archiva/
+/webarchive/
+/version.txt
+/compile_commands.json
+/clangScanBuildReports
+/Screenshots/screenshots.html
+
+# Ignore IDEs generated files
+.idea/
+.vscode/
+#FauxPasConfig
+#
+#Ignore temporary files
+.DS_Store
+*.swp
+
+
+# fastlane specific
+fastlane/report.xml
+
+# deliver temporary files
+fastlane/Preview.html
+
+# snapshot generated screenshots
+fastlane/screenshots
+
+# scan temporary files
+**/fastlane/test_output
+
+
+Screenshots/appstore
+Screenshots/framed
+
+ci-dependencies/node_modules
+ci-dependencies/package-lock.json
+
+# this is a chache file generated from this scrip https://github.com/KevinBongart/rake-fast
+.rake_tasks

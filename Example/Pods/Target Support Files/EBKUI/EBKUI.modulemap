@@ -1,0 +1,6 @@
+framework module EBKUI {
+  umbrella header "EBKUI-umbrella.h"
+
+  export *
+  module * { export * }
+}
