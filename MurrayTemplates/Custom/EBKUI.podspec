@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'EBKUI'
+  s.name             = '{{ name }}'
   s.version          = '1.0.0'
   s.summary          = 'Collection of UI elements used on the EBK app'
 
