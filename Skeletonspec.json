@@ -10,10 +10,7 @@
   },
   "foldersToRename" : [
     "EBKUI",
-    "Example/EBKUI",
-    "EBKUI.xcodeproj",
-    "EBKUI.xcworkspace"
-
+    "Example/EBKUI"
   ],
   "filePlaceholder" : "EBKUI",
   "scripts" : [
