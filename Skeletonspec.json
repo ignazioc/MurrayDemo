@@ -2,7 +2,8 @@
   "filesToRename" : [
   ],
   "remoteBones" : [
-    "https://github.com/ignazioc/MurrayBonesDemo"
+    "https://github.com/ignazioc/MurrayBonesDemo",
+    "https://github.com/synesthesia-it/Bones@develop"
   ],
   "environmentPlaceholders" : {
 
